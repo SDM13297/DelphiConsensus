@@ -1,0 +1,22 @@
+# --- DelphiConsensus Configuration ---
+
+# Select which LLM backend to use
+llm_backend: huggingface  # options: huggingface, openai, ollama
+
+# Model details for HuggingFace backend
+huggingface:
+  model_name: tiiuae/falcon-7b-instruct
+  max_tokens: 256
+  temperature: 0.7
+
+# (Future) OpenAI config
+openai:
+  api_key: "your_openai_api_key_here"
+  model: gpt-4
+  max_tokens: 256
+  temperature: 0.7
+
+# (Future) Ollama config
+ollama:
+  model_name: mistral
+  temperature: 0.7
