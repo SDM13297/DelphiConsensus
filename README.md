@@ -39,7 +39,7 @@ DelphiConsensus/
 │   └── prompt_experiments.ipynb # Exploratory prompt tuning and testing
 ├── requirements.txt            # Python dependencies
 └── README.md                   # You're here
-
+```bash
 ---
 
 ## 🧠 How It Works
