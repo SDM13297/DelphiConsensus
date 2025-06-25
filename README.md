@@ -39,7 +39,8 @@ DelphiConsensus/
 │   └── prompt_experiments.ipynb # Exploratory prompt tuning and testing
 ├── requirements.txt            # Python dependencies
 └── README.md                   # You're here
-```bash
+```
+
 ---
 
 ## 🧠 How It Works
@@ -63,3 +64,35 @@ DelphiConsensus/
    - Individual responses  
    - Summary  
    - Delta/consensus visualization (planned)
+
+---
+
+## ⚙️ Backends Supported
+
+- [x] HuggingFace Transformers (offline + open source)
+- [ ] OpenAI (via API key, optional)
+- [ ] Ollama (planned)
+- [ ] Local RAG (planned)
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/<your-username>/DelphiConsensus.git
+cd DelphiConsensus
+pip install -r requirements.txt
+```
+
+---
+
+### 🔭 Roadmap
+
+```markdown
+## 🔭 Roadmap
+
+- [ ] RAG-based expert knowledge grounding
+- [ ] Web-based input and result viewer
+- [ ] Delta/highlight disagreement visualizer
+- [ ] Real-time multi-turn simulation
+- [ ] Feedback loop for learners
