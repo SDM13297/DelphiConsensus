@@ -86,9 +86,6 @@ pip install -r requirements.txt
 
 ---
 
-### 🔭 Roadmap
-
-```markdown
 ## 🔭 Roadmap
 
 - [ ] RAG-based expert knowledge grounding
@@ -96,3 +93,24 @@ pip install -r requirements.txt
 - [ ] Delta/highlight disagreement visualizer
 - [ ] Real-time multi-turn simulation
 - [ ] Feedback loop for learners
+
+---
+
+## 🙌 Contributing
+
+We welcome contributions of all kinds — whether it's fixing bugs, adding new features, improving prompts, or enhancing documentation.
+
+### How to Contribute
+
+1. ⭐ Star the repo to show your support
+2. 🍴 Fork the project and create your branch: `git checkout -b feature/your-feature`
+3. ✅ Commit your changes: `git commit -m 'Add your message'`
+4. 📬 Push to the branch: `git push origin feature/your-feature`
+5. 🔁 Open a Pull Request
+
+Please ensure all new code is well documented and tested. For major changes, open an issue first to discuss what you’d like to change.
+
+> Contributions are subject to review and testing before merging.
+
+---
+
