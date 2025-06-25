@@ -39,3 +39,27 @@ DelphiConsensus/
 │   └── prompt_experiments.ipynb # Exploratory prompt tuning and testing
 ├── requirements.txt            # Python dependencies
 └── README.md                   # You're here
+
+---
+
+## 🧠 How It Works
+
+1. **User provides**:  
+   - A question  
+   - One or more subjects  
+   - (Optional) Knowledge base files for RAG use
+
+2. **System generates SMEs**  
+   - Each SME tied to a subject  
+   - Prompted via persona and configuration settings
+
+3. **Simulation Loop**  
+   - **Round 1**: SMEs provide initial responses  
+   - **Summarization**: LLM generates cross-expert synthesis  
+   - **Round 2**: SMEs revise opinions based on the summary  
+   - Repeatable if desired
+
+4. **Outputs**  
+   - Individual responses  
+   - Summary  
+   - Delta/consensus visualization (planned)
