@@ -5,7 +5,7 @@ llm_backend: huggingface  # options: huggingface, openai, ollama
 
 # Model details for HuggingFace backend
 huggingface:
-  model_name: tiiuae/falcon-7b-instruct
+  model_name: microsoft/DialoGPT-medium
   max_tokens: 256
   temperature: 0.7
 
